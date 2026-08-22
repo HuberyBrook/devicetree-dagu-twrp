@@ -14,7 +14,7 @@
 
 ### 参考链接
 
-- 酷安相关帖子：<https://www.coolapk.com/feed/68684878?s=ZGQ3YmI1NGExYThhMjk3ZzZhODk4MDhjega1660>
+- 本人酷安帖子：<https://www.coolapk.com/feed/68684878?s=ZGQ3YmI1NGExYThhMjk3ZzZhODk4MDhjega1660>
 
 上面的链接是本项目的相关参考资料。若链接内容、构建方式或设备信息与当前文件不一致，请以本仓库实际内容和你的设备实测结果为准。
 
