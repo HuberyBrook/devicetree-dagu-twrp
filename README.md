@@ -56,6 +56,7 @@
 - `prebuilt/` 中包含较大的二进制文件，请确认其来源、版本和再分发许可。
 - 不要将本仓库生成的镜像刷入其他型号或分区布局不同的设备。
 - 刷机存在数据丢失、无法启动甚至设备损坏的风险，请自行承担并保留可恢复的原厂镜像。
+- **Android 16 特别说明：**如果目标设备运行 Android 16，构建前需要将 `prebuilt/kernel` 替换为该设备自带的原厂 Android 16 内核（必须与目标设备和系统版本匹配），不要直接使用不兼容的预编译内核；替换后还应确认 DTB、DTBO、内核模块以及 `BoardConfig.mk` 配置相互兼容。
 - 建议在提交新版本前记录 kernel、DTB、DTBO 和模块的来源及版本信息。
 
 ## English
@@ -110,6 +111,7 @@ The link above is provided as related project reference material. If the linked 
 - `prebuilt/` contains relatively large binary artifacts. Verify their provenance, version, and redistribution terms before using or redistributing them.
 - Do not flash images built from this repository to another model or to a device with a different partition layout.
 - Flashing involves risks including data loss, boot failure, and permanent device damage. Proceed at your own risk and keep recoverable stock images.
+- **Android 16-specific note:** If the target device runs Android 16, replace `prebuilt/kernel` with the stock/bundled Android 16 kernel from that device before building. It must match the target device and software version; do not use an incompatible prebuilt kernel. After replacing it, verify that the DTB, DTBO, kernel modules, and `BoardConfig.mk` settings are compatible with one another.
 - When publishing an updated build, record the source and version of the kernel, DTB, DTBO, and modules whenever possible.
 
 ### Disclaimer
