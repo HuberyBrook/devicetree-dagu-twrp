@@ -1,6 +1,7 @@
 # DeviceTree Dagu TWRP
 
 > Device tree and recovery-side files for building TWRP for the **Dagu** device.
+> thanks:Kyuofox
 
 [中文](#中文) | [English](#english)
 
