@@ -36,6 +36,8 @@ on fs
     export LD_LIBRARY_PATH /system/lib64:/vendor/lib64:/vendor/lib64/hw
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+    wait /dev/block/by-name/metadata 10
+    wait /dev/block/by-name/userdata 10
     chmod 0660 /dev/qseecom
     chown system drmrpc /dev/qseecom
     chmod 0664 /dev/ion

@@ -199,4 +199,4 @@ TW_NO_HAPTICS := true
 TW_LOAD_VENDOR_MODULES := "exfat.ko"
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone25/temp" # CPU-0-0-0
 TW_BACKUP_EXCLUSIONS := /data/fonts,/data/adb/ap,/data/adb/ksu
-TW_DEVICE_VERSION := $(TW_RELEASE_PRODUCT_NAME)-A12
+TW_DEVICE_VERSION := $(TW_RELEASE_PRODUCT_NAME)-A16-test
